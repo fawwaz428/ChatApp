@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5.5"
+    android:background="#02DAC5"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_weight="1.5"
+        android:paddingTop="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/hyder"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginStart="100dp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="5dp"
+            android:text="@string/_03212127646"
+            android:textSize="20sp"
+            android:layout_marginStart="100dp">
+
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="5dp"
+            android:text="@string/g_10_islamabad"
+            android:textSize="15sp"
+            android:layout_marginStart="100dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingTop="50dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fawwaz"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            android:layout_marginStart="100dp">
+
+        </TextView>
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:id="@+id/phno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_03325271196"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp">
+
+        </TextView>
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="@string/pwd_islamabad"
+            android:layout_marginStart="100dp">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/activity_main_add_button"
+            android:layout_width="110dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_add_circle_24"
+            android:paddingTop="0dp"
+            android:layout_gravity="end">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

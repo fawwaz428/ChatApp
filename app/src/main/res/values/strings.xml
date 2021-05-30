@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chat App</string>
+    <string name="hyder">Hyder</string>
+    <string name="_03212127646">03212127646</string>
+    <string name="g_10_islamabad">G-10 Islamabad</string>
+    <string name="fawwaz">Fawwaz</string>
+    <string name="pwd_islamabad">PWD Islamabad</string>
+    <string name="_03325271196">03325271196</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="save">Save</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="#02DAC5">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_weight="2"
+        android:src="@drawable/ava">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginRight="25dp"
+        android:weightSum="4"
+        android:layout_marginLeft="25dp"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:paddingTop="10dp"
+            android:weightSum="2"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/activity_main_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="20dp"
+                android:drawableStart="@drawable/ic_baseline_contacts_24"
+                android:layout_marginRight="25dp"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_baseline_contacts_24"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="25dp"
+                android:autofillHints="@string/name">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:background="@color/white"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginLeft="25dp"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:weightSum="2"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/activity_main_phone_input"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="2"
+                android:drawableStart="@drawable/ic_baseline_phone_24"
+                android:layout_marginRight="25dp"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_baseline_contacts_24"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="20dp"
+                android:autofillHints="@string/phone">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:background="@color/white"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginLeft="25dp"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:weightSum="2"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/activity_main_email_input"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="2"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:layout_marginRight="25dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="20dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:autofillHints="@string/email">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:background="@color/white"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginLeft="25dp"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:weightSum="2"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/activity_main_address_input"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:drawableStart="@drawable/ic_baseline_location_on_24"
+                android:layout_marginRight="25dp"
+                android:hint="@string/address"
+                android:inputType="textPostalAddress"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_baseline_contacts_24"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="20dp"
+                android:autofillHints="@string/address">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:background="@color/white"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp">
+
+        <Button
+            android:id="@+id/activity_main_save_button"
+            android:layout_width="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/rounded_background"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
